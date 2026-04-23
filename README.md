@@ -1,8 +1,7 @@
+
 # Claude vs TradingView
 
 **Claude vs TradingView** connecte Claude à TradingView Desktop via le Chrome DevTools Protocol. Il vous donne un brief de trading structuré chaque matin, et laisse Claude piloter vos graphiques directement.
-
-Construit sur la base de [tradingview-mcp-jackson](https://github.com/LewisWJackson/tradingview-mcp-jackson), lui-même fork de [tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp).
 
 ---
 
@@ -48,7 +47,7 @@ Ou suivez les étapes manuelles ci-dessous.
 ### 1. Cloner et installer
 
 ```bash
-git clone https://github.com/votre-username/claudeverstradingview.git ~/claudeverstradingview
+git clone https://github.com/kaspertrading/claudeverstradingview.git ~/claudeverstradingview
 cd ~/claudeverstradingview
 npm install
 ```
@@ -227,12 +226,6 @@ Claude Code  <->  Serveur MCP (stdio)  <->  CDP (port 9222)  <->  TradingView De
 - 81 outils MCP au total
 - Connexion via Chrome DevTools Protocol sur localhost:9222
 - Aucun appel réseau externe, tout tourne en local
-
----
-
-## Crédits
-
-Construit sur [tradingview-mcp-jackson](https://github.com/LewisWJackson/tradingview-mcp-jackson) par @LewisWJackson, lui-même fork de [tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp) par @tradesdontlie.
 
 ---
 
